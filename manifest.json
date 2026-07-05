@@ -1,0 +1,17 @@
+{
+  "id": "mcp-tool-bridge",
+  "name": "MCP 工具调用桥接",
+  "version": "1.0.0",
+  "description": "让 AI 在聊天中调用 MCP 工具:解析回复中的工具标记,转发给 MCP Server 执行,并把结果写回对话",
+  "author": "laliandyunhe",
+  "entry": "https://raw.githubusercontent.com/laliandyunhe/mcp2/main/date-battle.js",
+  "hash": "",
+  "permissions": [
+    "storage",
+    "ui",
+    "conversation:read",
+    "conversation:write",
+    "memory:read",
+    "network"
+  ]
+}
